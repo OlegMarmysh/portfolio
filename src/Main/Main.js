@@ -6,9 +6,9 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.greeting}>
-          <span>Hello!!!</span>
-          <span>I'm  Oleg <span>Marmysh</span></span>
-          <h1>Front-end developer</h1>
+          <span>Hello, my name is</span>
+          <span>Oleg <span>Marmysh</span></span>
+          <h1>I am front-end developer</h1>
         </div>
         <div className={styles.photo}>
           <div className={styles.image}/>

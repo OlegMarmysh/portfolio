@@ -1,12 +1,11 @@
 .skills {
   min-height: 100vh;
-  background-color: #32354b;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
 }
 
 .container {
-  border: 1px solid;
   width: 80%;
   padding: 100px 0;
   display: flex;
@@ -19,11 +18,44 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.skill {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description{
+
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  background-color: blueviolet;
+  height: 90px;
+  width: 90px;
+}
 
 @media screen and (max-width: 1058px){
   .mainSkills {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 1058px){
+  .skill {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .skill {
+    width: 100%;
   }
 }
 

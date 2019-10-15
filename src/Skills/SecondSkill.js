@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './SecondSkill.module.css';
+import styles from './Skills.module.css';
 
 function SecondSkill() {
     return (
-        <div className={styles.secondSkill}>
+        <div className={styles.skill}>
             <img src="" alt=""/>
             <div className={styles.content}>
                 <div className={styles.avatar}>

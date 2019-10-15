@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './FirstWork.module.css';
+import styles from './MyWorks.module.css';
 
 function FirstWork() {
     return (
-        <div className={styles.firstWork}>
+        <div className={styles.work}>
             <img src="" alt=""/>
             <div className={styles.content}>
                 <button className={styles.button}>Look</button>

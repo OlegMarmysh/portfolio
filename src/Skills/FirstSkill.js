@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './FirstSkill.module.css';
+import styles from './Skills.module.css';
 
 function FirstSkill() {
   return (
-      <div className={styles.firstSkill}>
+      <div className={styles.skill}>
           <div className={styles.content}>
               <div className={styles.avatar}>
                   <img src="" alt=""/>

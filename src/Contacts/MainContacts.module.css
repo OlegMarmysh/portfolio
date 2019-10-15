@@ -1,0 +1,28 @@
+.mainContacts {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 450px;
+}
+
+.name {
+  border: 1px solid;
+  height: 15%;
+}
+.surname {
+  border: 1px solid;
+  height: 15%;
+}
+
+.description {
+  border: 1px solid;
+  height: 70%;
+}
+
+@media screen and (max-width: 564px) {
+  .mainContacts {
+    width: 100%;
+  }
+}
+

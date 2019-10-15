@@ -1,0 +1,25 @@
+.icons {
+  border: 1px solid;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 500px;
+
+}
+.icon {
+  background-color: #7a7a7a;
+  height: 50px;
+  width: 60px;
+}
+
+@media screen and (max-width: 631px){
+  .icons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 422px){
+  .icon {
+    width: 45px;
+  }
+}

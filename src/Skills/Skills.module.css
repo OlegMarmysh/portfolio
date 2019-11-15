@@ -13,50 +13,19 @@
 
 }
 
-.mainSkills {
+.wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.skill {
-  width: 280px;
-  display: flex;
-  flex-direction: column;
-}
 
-.description{
-
-
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.avatar {
-  background-color: blueviolet;
-  height: 90px;
-  width: 90px;
-}
 
 @media screen and (max-width: 1058px){
-  .mainSkills {
+  .wrapper {
     flex-direction: column;
     align-items: center;
   }
 }
-@media screen and (max-width: 1058px){
-  .skill {
-    width: 400px;
-  }
-}
 
-@media screen and (max-width: 500px){
-  .skill {
-    width: 100%;
-  }
-}
 
 

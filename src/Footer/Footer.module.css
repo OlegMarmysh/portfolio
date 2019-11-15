@@ -7,11 +7,41 @@
 }
 
 .container {
-  border: 1px solid;
   height: 85%;
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.icons {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 400px;
+
+}
+.icon {
+  height: 50px;
+  width: 60px;
+}
+
+.icon img {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 631px){
+  .icons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 422px){
+  .icon {
+    width: 45px;
+  }
 }

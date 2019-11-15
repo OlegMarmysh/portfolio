@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css';
 
-function Main() {
+const Main = (props) => {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
@@ -18,6 +18,6 @@ function Main() {
             </div>
         </div>
     );
-}
+};
 
 export default Main;

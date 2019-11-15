@@ -6,7 +6,6 @@
   align-items: center;
 }
 .container {
-  border: 1px solid;
   width: 80%;
   min-height: 140px;
   display: flex;
@@ -17,4 +16,11 @@
 .button {
   width: 100px;
   height: 30px;
+  color: #ffffff;
+  background-color: #484848;
+  border: 0 none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 20px;
 }

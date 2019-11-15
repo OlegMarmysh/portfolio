@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
 import styles from './NavMenu.module.css';
 
-function NavMenu() {
+const NavMenu = (props) => {
   return (
     <div className={styles.navMenu}>
         <a href="#" className="link">Main</a>
@@ -11,6 +10,6 @@ function NavMenu() {
         <a href="#" className="link">Contacts</a>
     </div>
   );
-}
+};
 
 export default NavMenu;

@@ -3,7 +3,7 @@
     background-color: #eeeeee;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 100px 0;
 }
 
@@ -54,6 +54,7 @@
 }
 h1 {
     font-size: large;
+    margin: 0;
 }
 .photo {
     margin-top: 20px;
@@ -80,5 +81,15 @@ h1 {
 @media screen and (max-width: 451px) {
     .greeting {
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .main {
+        width: 100%;
+    }
+    .greeting span:nth-child(2) span:before {
+        width: 230px;
+        right: 0;
     }
 }

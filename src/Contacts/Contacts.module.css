@@ -7,7 +7,6 @@
 }
 
 .container {
-  border: 1px solid;
   width: 80%;
   height: 80%;
   display: flex;
@@ -19,6 +18,43 @@
 .button {
   width: 100px;
   height: 30px;
+  color: #ffffff;
+  background-color: #484848;
+  border: 0 none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 450px;
+}
+
+.name, .surname {
+  height: 15%;
+  padding: 0 15px;
+}
+
+.description {
+  height: 70%;
+  padding: 10px 15px;
+}
+.name, .surname,.description {
+  background: #e6e6e6;
+  border: 1px solid #d9d9d9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 564px) {
+  .wrapper {
+    width: 100%;
+  }
 }
 
 

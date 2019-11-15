@@ -1,28 +1,24 @@
 import React from 'react';
 import styles from './MyWorks.module.css';
-import FirstWork from "./FirstWork";
-import SecondWork from "./SecondWork";
-import t from "../blockTitle.module.css";
+import BlockTitle from "../BlockTitle";
+import Work from "./Work";
 
-function MyWorks() {
-  return (
-    <div className={styles.myWorks}>
-        <div className={styles.container}>
-          <div className={t.blockTitle}>
-            <h2 className={t.title}>My works</h2>
-            <div className={t.horizontalLine}>
-              <div className={t.top}></div>
-              <div className={t.bottom}></div>
+const MyWorks = (props) => {
+    let state = [
+        {title: 'TodoList', description: 'Short description'},
+        {title: 'Social Network', description: 'Short description'},
+        {title: 'Counter', description: 'Short description'}
+    ]
+    return (
+        <div className={styles.myWorks}>
+            <div className={styles.container}>
+                <BlockTitle title={'My works'}/>
+                <div className={styles.mainWorks}>
+                    {state.map(el => <Work title={el.title} description={el.description}/>)}
+                </div>
             </div>
-          </div>
-          <div className={styles.mainWorks}>
-            <FirstWork/>
-            <SecondWork/>
-            <SecondWork/>
-          </div>
         </div>
-    </div>
-  );
-}
+    );
+};
 
 export default MyWorks;

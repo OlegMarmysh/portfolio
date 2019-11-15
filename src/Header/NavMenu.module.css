@@ -2,5 +2,11 @@
     width: 400px;
     display: flex;
     justify-content: space-between;
+
+}
+.navMenu a{
+    text-decoration: none;
+    color: #120009;
+    font-weight: 500;
 }
 

@@ -20,7 +20,7 @@ const Footer = (props)  => {
                     <a className={styles.icon} href="https://t.me/backdown959">
                         <img src={telegramIcon} alt=""/>
                     </a>
-                    <a className={styles.icon} href="">
+                    <a className={styles.icon} href="https://www.linkedin.com/in/oleg-marmysh-bbba38198/">
                         <img src={linkedinIcon} alt=""/>
                     </a>
                 </div>

@@ -5,7 +5,7 @@ const Work = (props) => {
     return (
         <div className={styles.work}>
             <div className={styles.content}>
-                <div className={styles.workImg}>
+                <div className={styles.workImg} style={props.style}>
                     <button className={styles.button}>Look</button>
                 </div>
             </div>

@@ -15,13 +15,35 @@
 }
 
 .button {
-  width: 100px;
-  height: 30px;
-  color: #ffffff;
-  background-color: #484848;
-  border: 0 none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 180px;
+  color: #888888;
+  border: none;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 20px;
+  background-color: transparent;
+  position: relative;
+  padding: 8px 20px;
+  margin: 0 0 15px;
+  line-height: 1;
+  outline: none;
+
+}
+.button::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 10px;
+  background-color: #484848;
+  bottom: 0;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover::after{
+  width: 100%;
+  height: 100%;
 }

@@ -13,19 +13,19 @@ function App() {
     const particlesOpt = {
         "particles": {
             "number": {
-                "value": 130,
+                "value": 200,
                 "density": {
                     "enable": true,
-                    "value_area": 800
+                    "value_area": 1800
                 }
             },
             "color": {
                 "value": "#120009"
             },
             "shape": {
-                "type": "polygon",
+                "type": "circle",
                 "stroke": {
-                    "width": 0,
+                    "width": 2,
                     "color": "#000000"
                 },
                 "polygon": {
@@ -34,10 +34,25 @@ function App() {
             },
             "line_linked": {
                 "enable": true,
-                "color": "#4c4c4c",
+                "distance": 170,
+                "color": "#ba1630",
                 "opacity": 0.3,
-                "width": 2
+                "width": 4
             },
+            "move": { //опции движения
+                "enable": true,
+                "speed": 3,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
         }
     };
   return (

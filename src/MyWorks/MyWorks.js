@@ -5,6 +5,7 @@ import Work from "./Work";
 import todoListImg from "../img/todoList.jpg"
 import socialNetworkImg from "../img/socialNetwork.jpg"
 import counterImg from "../img/Counter.png"
+import {Fade} from "react-reveal";
 
 const MyWorks = (props) => {
     let state = [
@@ -14,12 +15,14 @@ const MyWorks = (props) => {
     ];
     return (
         <div className={styles.myWorks}>
+            <Fade bottom>
             <div className={styles.container}>
                 <BlockTitle title={'My works'}/>
                 <div className={styles.mainWorks}>
                     {state.map(el => <Work title={el.title} description={el.description} style={el.image}/>)}
                 </div>
             </div>
+            </Fade>
         </div>
     );
 };

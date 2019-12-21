@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b77d077.chunk.css",
-    "main.js": "/portfolio/static/js/main.82555add.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.82555add.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.020dd489.chunk.css",
+    "main.js": "/portfolio/static/js/main.3966f4bc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3966f4bc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ead92456.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ead92456.js.map",
-    "static/js/2.22d8f84a.chunk.js": "/portfolio/static/js/2.22d8f84a.chunk.js",
-    "static/js/2.22d8f84a.chunk.js.map": "/portfolio/static/js/2.22d8f84a.chunk.js.map",
+    "static/js/2.2263310f.chunk.js": "/portfolio/static/js/2.2263310f.chunk.js",
+    "static/js/2.2263310f.chunk.js.map": "/portfolio/static/js/2.2263310f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b6018233dd1f23b9bedff0acff3d8d66.js": "/portfolio/precache-manifest.b6018233dd1f23b9bedff0acff3d8d66.js",
+    "precache-manifest.71e63d26e5d8870e6e007dfbeeb7d515.js": "/portfolio/precache-manifest.71e63d26e5d8870e6e007dfbeeb7d515.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.0b77d077.chunk.css.map": "/portfolio/static/css/main.0b77d077.chunk.css.map",
+    "static/css/main.020dd489.chunk.css.map": "/portfolio/static/css/main.020dd489.chunk.css.map",
+    "static/media/Counter.png": "/portfolio/static/media/Counter.5a179f9b.png",
     "static/media/React_logo_vector.png": "/portfolio/static/media/React_logo_vector.a15bc317.png",
     "static/media/html_css.png": "/portfolio/static/media/html_css.a18857e4.png",
     "static/media/inst.png": "/portfolio/static/media/inst.5a23565c.png",
     "static/media/js_logo.png": "/portfolio/static/media/js_logo.7940ac6d.png",
     "static/media/linkedinpng.png": "/portfolio/static/media/linkedinpng.66a345ed.png",
+    "static/media/socialNetwork.jpg": "/portfolio/static/media/socialNetwork.6a6f78ef.jpg",
     "static/media/telegram.png": "/portfolio/static/media/telegram.212a5833.png",
-    "static/media/Work.module.css": "/portfolio/static/media/todoList.5bd15d43.jpg",
+    "static/media/todoList.jpg": "/portfolio/static/media/todoList.5bd15d43.jpg",
     "static/media/vk_icon.png": "/portfolio/static/media/vk_icon.2df1e17d.png"
   }
 }
